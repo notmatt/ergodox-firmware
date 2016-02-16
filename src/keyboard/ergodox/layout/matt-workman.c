@@ -75,7 +75,7 @@ const uint8_t PROGMEM _kb_layout[KB_LAYERS][KB_ROWS][KB_COLUMNS] = {
 0,
 // left hand
       _esc,     _1,         _2,      _3,      _4,    _5, _dash,
-      _tab,     _Q,         _D,      _R,      _W,    _B,   _Q,
+      _tab,     _Q,         _M,      _R,      _W,    _B,   _Q,
     _ctrlL,     _A,         _S,      _H,      _T,    _G,
    _shiftL,     _Z,         _X,      _M,      _C,    _V,     1, // sticky shift?
      _guiL, _grave, _backslash, _arrowL, _arrowR,

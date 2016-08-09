@@ -1,0 +1,1096 @@
+Archive member included because of file (symbol)
+
+/usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/avr5/libgcc.a(_exit.o)
+                              /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/crtm32u4.o (exit)
+/usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/avr5/libgcc.a(_tablejump.o)
+                              lib/key-functions/private.o (__tablejump2__)
+/usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/avr5/libgcc.a(_copy_data.o)
+                              main.o (__do_copy_data)
+/usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/avr5/libgcc.a(_clear_bss.o)
+                              main.o (__do_clear_bss)
+
+Allocating common symbols
+Common symbol       size              file
+
+main_loop_row       0x1               main.o
+main_arg_any_non_trans_key_pressed
+                    0x1               main.o
+main_layers_pressed
+                    0x54              main.o
+consumer_key        0x2               lib-other/pjrc/usb_keyboard/usb_keyboard.o
+main_arg_row        0x1               main.o
+main_arg_layer      0x1               main.o
+layers              0x3c              main.o
+main_arg_was_pressed
+                    0x1               main.o
+main_arg_trans_key_pressed
+                    0x1               main.o
+main_arg_is_pressed
+                    0x1               main.o
+main_loop_col       0x1               main.o
+main_arg_layer_offset
+                    0x1               main.o
+last_consumer_key   0x2               lib-other/pjrc/usb_keyboard/usb_keyboard.o
+main_arg_col        0x1               main.o
+
+Discarded input sections
+
+ .bss           0x00000000        0x0 /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/crtm32u4.o
+ .text          0x00000000        0x0 main.o
+ .bss           0x00000000        0x0 main.o
+ .text          0x00000000        0x0 keyboard/ergodox/controller.o
+ .bss           0x00000000        0x0 keyboard/ergodox/controller.o
+ .text          0x00000000        0x0 keyboard/ergodox/controller/mcp23018.o
+ .bss           0x00000000        0x0 keyboard/ergodox/controller/mcp23018.o
+ .text          0x00000000        0x0 keyboard/ergodox/controller/teensy-2-0.o
+ .bss           0x00000000        0x0 keyboard/ergodox/controller/teensy-2-0.o
+ .text          0x00000000        0x0 keyboard/ergodox/layout/colemak-jc-mod.o
+ .bss           0x00000000        0x0 keyboard/ergodox/layout/colemak-jc-mod.o
+ .text          0x00000000        0x0 lib/key-functions/private.o
+ .bss           0x00000000        0x0 lib/key-functions/private.o
+ .text._kbfun_is_pressed
+                0x00000000       0x56 lib/key-functions/private.o
+ .progmem.gcc_sw_table._kbfun_is_pressed
+                0x00000000       0x10 lib/key-functions/private.o
+ .text          0x00000000        0x0 lib/twi/teensy-2-0.o
+ .bss           0x00000000        0x0 lib/twi/teensy-2-0.o
+ .text          0x00000000        0x0 lib/usb/TODO.o
+ .bss           0x00000000        0x0 lib/usb/TODO.o
+ .text          0x00000000        0x0 lib/key-functions/public/basic.o
+ .bss           0x00000000        0x0 lib/key-functions/public/basic.o
+ .text.layer_push
+                0x00000000       0x62 lib/key-functions/public/basic.o
+ .text.layer_toggle
+                0x00000000       0x14 lib/key-functions/public/basic.o
+ .text.kbfun_toggle
+                0x00000000       0x50 lib/key-functions/public/basic.o
+ .text.kbfun_layer_push_1
+                0x00000000        0x6 lib/key-functions/public/basic.o
+ .text.kbfun_layer_toggle_1
+                0x00000000        0x6 lib/key-functions/public/basic.o
+ .text.kbfun_layer_push_2
+                0x00000000        0x6 lib/key-functions/public/basic.o
+ .text.kbfun_layer_toggle_2
+                0x00000000        0x6 lib/key-functions/public/basic.o
+ .text.kbfun_layer_push_3
+                0x00000000        0x6 lib/key-functions/public/basic.o
+ .text.kbfun_layer_sticky_3
+                0x00000000        0x6 lib/key-functions/public/basic.o
+ .text.kbfun_layer_toggle_3
+                0x00000000        0x6 lib/key-functions/public/basic.o
+ .text.kbfun_layer_push_4
+                0x00000000        0x6 lib/key-functions/public/basic.o
+ .text.kbfun_layer_sticky_4
+                0x00000000        0x6 lib/key-functions/public/basic.o
+ .text.kbfun_layer_toggle_4
+                0x00000000        0x6 lib/key-functions/public/basic.o
+ .text.kbfun_layer_push_5
+                0x00000000        0x6 lib/key-functions/public/basic.o
+ .text.kbfun_layer_sticky_5
+                0x00000000        0x6 lib/key-functions/public/basic.o
+ .text.kbfun_layer_toggle_5
+                0x00000000        0x6 lib/key-functions/public/basic.o
+ .text.kbfun_layer_push_6
+                0x00000000        0x6 lib/key-functions/public/basic.o
+ .text.kbfun_layer_sticky_6
+                0x00000000        0x6 lib/key-functions/public/basic.o
+ .text.kbfun_layer_toggle_6
+                0x00000000        0x6 lib/key-functions/public/basic.o
+ .text.kbfun_layer_push_7
+                0x00000000        0x6 lib/key-functions/public/basic.o
+ .text.kbfun_layer_sticky_7
+                0x00000000        0x6 lib/key-functions/public/basic.o
+ .text.kbfun_layer_toggle_7
+                0x00000000        0x6 lib/key-functions/public/basic.o
+ .text.kbfun_layer_push_8
+                0x00000000        0x6 lib/key-functions/public/basic.o
+ .text.kbfun_layer_sticky_8
+                0x00000000        0x6 lib/key-functions/public/basic.o
+ .text.kbfun_layer_toggle_8
+                0x00000000        0x6 lib/key-functions/public/basic.o
+ .text.kbfun_layer_push_9
+                0x00000000        0x6 lib/key-functions/public/basic.o
+ .text.kbfun_layer_sticky_9
+                0x00000000        0x6 lib/key-functions/public/basic.o
+ .text.kbfun_layer_toggle_9
+                0x00000000        0x6 lib/key-functions/public/basic.o
+ .text.kbfun_layer_push_10
+                0x00000000        0x6 lib/key-functions/public/basic.o
+ .text.kbfun_layer_sticky_10
+                0x00000000        0x6 lib/key-functions/public/basic.o
+ .text.kbfun_layer_toggle_10
+                0x00000000        0x6 lib/key-functions/public/basic.o
+ .text          0x00000000        0x0 lib/key-functions/public/device.o
+ .bss           0x00000000        0x0 lib/key-functions/public/device.o
+ .text          0x00000000        0x0 lib/key-functions/public/special.o
+ .bss           0x00000000        0x0 lib/key-functions/public/special.o
+ .text.numpad_toggle_numlock
+                0x00000000       0x18 lib/key-functions/public/special.o
+ .text.kbfun_2_keys_capslock_press_release
+                0x00000000       0xbe lib/key-functions/public/special.o
+ .text.kbfun_layer_push_numpad
+                0x00000000       0x44 lib/key-functions/public/special.o
+ .text.kbfun_layer_pop_numpad
+                0x00000000       0x10 lib/key-functions/public/special.o
+ .bss.rshift_pressed.1794
+                0x00000000        0x1 lib/key-functions/public/special.o
+ .bss.lshift_pressed.1793
+                0x00000000        0x1 lib/key-functions/public/special.o
+ .bss.keys_pressed.1792
+                0x00000000        0x1 lib/key-functions/public/special.o
+ .bss.numpad_layer_id
+                0x00000000        0x1 lib/key-functions/public/special.o
+ .text          0x00000000        0x0 lib-other/pjrc/usb_keyboard/usb_keyboard.o
+ .bss           0x00000000        0x0 lib-other/pjrc/usb_keyboard/usb_keyboard.o
+ .text.usb_keyboard_press
+                0x00000000       0x1e lib-other/pjrc/usb_keyboard/usb_keyboard.o
+ .text          0x00000000        0x0 /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/avr5/libgcc.a(_exit.o)
+ .bss           0x00000000        0x0 /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/avr5/libgcc.a(_exit.o)
+ .text.libgcc.mul
+                0x00000000        0x0 /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/avr5/libgcc.a(_exit.o)
+ .text.libgcc.div
+                0x00000000        0x0 /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/avr5/libgcc.a(_exit.o)
+ .text.libgcc   0x00000000        0x0 /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/avr5/libgcc.a(_exit.o)
+ .text.libgcc.prologue
+                0x00000000        0x0 /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/avr5/libgcc.a(_exit.o)
+ .text.libgcc.builtins
+                0x00000000        0x0 /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/avr5/libgcc.a(_exit.o)
+ .text.libgcc.fmul
+                0x00000000        0x0 /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/avr5/libgcc.a(_exit.o)
+ .text.libgcc.fixed
+                0x00000000        0x0 /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/avr5/libgcc.a(_exit.o)
+ .text          0x00000000        0x0 /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/avr5/libgcc.a(_tablejump.o)
+ .bss           0x00000000        0x0 /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/avr5/libgcc.a(_tablejump.o)
+ .text.libgcc.mul
+                0x00000000        0x0 /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/avr5/libgcc.a(_tablejump.o)
+ .text.libgcc.div
+                0x00000000        0x0 /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/avr5/libgcc.a(_tablejump.o)
+ .text.libgcc.prologue
+                0x00000000        0x0 /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/avr5/libgcc.a(_tablejump.o)
+ .text.libgcc.builtins
+                0x00000000        0x0 /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/avr5/libgcc.a(_tablejump.o)
+ .text.libgcc.fmul
+                0x00000000        0x0 /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/avr5/libgcc.a(_tablejump.o)
+ .text.libgcc.fixed
+                0x00000000        0x0 /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/avr5/libgcc.a(_tablejump.o)
+ .text          0x00000000        0x0 /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/avr5/libgcc.a(_copy_data.o)
+ .bss           0x00000000        0x0 /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/avr5/libgcc.a(_copy_data.o)
+ .text.libgcc.mul
+                0x00000000        0x0 /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/avr5/libgcc.a(_copy_data.o)
+ .text.libgcc.div
+                0x00000000        0x0 /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/avr5/libgcc.a(_copy_data.o)
+ .text.libgcc   0x00000000        0x0 /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/avr5/libgcc.a(_copy_data.o)
+ .text.libgcc.prologue
+                0x00000000        0x0 /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/avr5/libgcc.a(_copy_data.o)
+ .text.libgcc.builtins
+                0x00000000        0x0 /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/avr5/libgcc.a(_copy_data.o)
+ .text.libgcc.fmul
+                0x00000000        0x0 /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/avr5/libgcc.a(_copy_data.o)
+ .text.libgcc.fixed
+                0x00000000        0x0 /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/avr5/libgcc.a(_copy_data.o)
+ .text          0x00000000        0x0 /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/avr5/libgcc.a(_clear_bss.o)
+ .bss           0x00000000        0x0 /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/avr5/libgcc.a(_clear_bss.o)
+ .text.libgcc.mul
+                0x00000000        0x0 /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/avr5/libgcc.a(_clear_bss.o)
+ .text.libgcc.div
+                0x00000000        0x0 /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/avr5/libgcc.a(_clear_bss.o)
+ .text.libgcc   0x00000000        0x0 /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/avr5/libgcc.a(_clear_bss.o)
+ .text.libgcc.prologue
+                0x00000000        0x0 /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/avr5/libgcc.a(_clear_bss.o)
+ .text.libgcc.builtins
+                0x00000000        0x0 /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/avr5/libgcc.a(_clear_bss.o)
+ .text.libgcc.fmul
+                0x00000000        0x0 /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/avr5/libgcc.a(_clear_bss.o)
+ .text.libgcc.fixed
+                0x00000000        0x0 /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/avr5/libgcc.a(_clear_bss.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+text             0x00000000         0x00020000         xr
+data             0x00800060         0x0000ffa0         rw !x
+eeprom           0x00810000         0x00010000         rw !x
+fuse             0x00820000         0x00000400         rw !x
+lock             0x00830000         0x00000400         rw !x
+signature        0x00840000         0x00000400         rw !x
+user_signatures  0x00850000         0x00000400         rw !x
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+Address of section .data set to 0x800100
+LOAD /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/crtm32u4.o
+LOAD main.o
+LOAD keyboard/ergodox/controller.o
+LOAD keyboard/ergodox/controller/mcp23018.o
+LOAD keyboard/ergodox/controller/teensy-2-0.o
+LOAD keyboard/ergodox/layout/colemak-jc-mod.o
+LOAD lib/key-functions/private.o
+LOAD lib/twi/teensy-2-0.o
+LOAD lib/usb/TODO.o
+LOAD lib/key-functions/public/basic.o
+LOAD lib/key-functions/public/device.o
+LOAD lib/key-functions/public/special.o
+LOAD lib-other/pjrc/usb_keyboard/usb_keyboard.o
+START GROUP
+LOAD /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/avr5/libgcc.a
+LOAD /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libm.a
+LOAD /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/libc.a
+END GROUP
+
+.hash
+ *(.hash)
+
+.dynsym
+ *(.dynsym)
+
+.dynstr
+ *(.dynstr)
+
+.gnu.version
+ *(.gnu.version)
+
+.gnu.version_d
+ *(.gnu.version_d)
+
+.gnu.version_r
+ *(.gnu.version_r)
+
+.rel.init
+ *(.rel.init)
+
+.rela.init
+ *(.rela.init)
+
+.rel.text
+ *(.rel.text)
+ *(.rel.text.*)
+ *(.rel.gnu.linkonce.t*)
+
+.rela.text
+ *(.rela.text)
+ *(.rela.text.*)
+ *(.rela.gnu.linkonce.t*)
+
+.rel.fini
+ *(.rel.fini)
+
+.rela.fini
+ *(.rela.fini)
+
+.rel.rodata
+ *(.rel.rodata)
+ *(.rel.rodata.*)
+ *(.rel.gnu.linkonce.r*)
+
+.rela.rodata
+ *(.rela.rodata)
+ *(.rela.rodata.*)
+ *(.rela.gnu.linkonce.r*)
+
+.rel.data
+ *(.rel.data)
+ *(.rel.data.*)
+ *(.rel.gnu.linkonce.d*)
+
+.rela.data
+ *(.rela.data)
+ *(.rela.data.*)
+ *(.rela.gnu.linkonce.d*)
+
+.rel.ctors
+ *(.rel.ctors)
+
+.rela.ctors
+ *(.rela.ctors)
+
+.rel.dtors
+ *(.rel.dtors)
+
+.rela.dtors
+ *(.rela.dtors)
+
+.rel.got
+ *(.rel.got)
+
+.rela.got
+ *(.rela.got)
+
+.rel.bss
+ *(.rel.bss)
+
+.rela.bss
+ *(.rela.bss)
+
+.rel.plt
+ *(.rel.plt)
+
+.rela.plt
+ *(.rela.plt)
+
+.text           0x00000000     0x2440
+ *(.vectors)
+ .vectors       0x00000000       0xac /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/crtm32u4.o
+                0x00000000                __vectors
+                0x00000000                __vector_default
+ *(.vectors)
+ *(.progmem.gcc*)
+ .progmem.gcc_sw_table._kbfun_press_release
+                0x000000ac       0x10 lib/key-functions/private.o
+                0x000000bc                . = ALIGN (0x2)
+                0x000000bc                __trampolines_start = .
+ *(.trampolines)
+ .trampolines   0x000000bc        0x0 linker stubs
+ *(.trampolines*)
+                0x000000bc                __trampolines_end = .
+ *(.progmem*)
+ .progmem.data._kb_layout_release
+                0x000000bc      0x690 keyboard/ergodox/layout/colemak-jc-mod.o
+                0x000000bc                _kb_layout_release
+ .progmem.data._kb_layout_press
+                0x0000074c      0x690 keyboard/ergodox/layout/colemak-jc-mod.o
+                0x0000074c                _kb_layout_press
+ .progmem.data._kb_layout
+                0x00000ddc      0x348 keyboard/ergodox/layout/colemak-jc-mod.o
+                0x00000ddc                _kb_layout
+ .progmem.data.descriptor_list
+                0x00001124       0x3f lib-other/pjrc/usb_keyboard/usb_keyboard.o
+ .progmem.data.string2
+                0x00001163       0x38 lib-other/pjrc/usb_keyboard/usb_keyboard.o
+ .progmem.data.string1
+                0x0000119b       0x1a lib-other/pjrc/usb_keyboard/usb_keyboard.o
+ .progmem.data.string0
+                0x000011b5        0x4 lib-other/pjrc/usb_keyboard/usb_keyboard.o
+ .progmem.data.config1_descriptor
+                0x000011b9       0x3b lib-other/pjrc/usb_keyboard/usb_keyboard.o
+ .progmem.data.extra_hid_report_desc
+                0x000011f4       0x19 lib-other/pjrc/usb_keyboard/usb_keyboard.o
+ .progmem.data.keyboard_hid_report_desc
+                0x0000120d       0x3f lib-other/pjrc/usb_keyboard/usb_keyboard.o
+ .progmem.data.device_descriptor
+                0x0000124c       0x12 lib-other/pjrc/usb_keyboard/usb_keyboard.o
+ .progmem.data.endpoint_config_table
+                0x0000125e        0x7 lib-other/pjrc/usb_keyboard/usb_keyboard.o
+                0x00001266                . = ALIGN (0x2)
+ *fill*         0x00001265        0x1 
+ *(.jumptables)
+ *(.jumptables*)
+ *(.lowtext)
+ *(.lowtext*)
+                0x00001266                __ctors_start = .
+ *(.ctors)
+                0x00001266                __ctors_end = .
+                0x00001266                __dtors_start = .
+ *(.dtors)
+                0x00001266                __dtors_end = .
+ SORT(*)(.ctors)
+ SORT(*)(.dtors)
+ *(.init0)
+ .init0         0x00001266        0x0 /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/crtm32u4.o
+                0x00001266                __init
+ *(.init0)
+ *(.init1)
+ *(.init1)
+ *(.init2)
+ .init2         0x00001266        0xc /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/crtm32u4.o
+ *(.init2)
+ *(.init3)
+ *(.init3)
+ *(.init4)
+ .init4         0x00001272       0x16 /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/avr5/libgcc.a(_copy_data.o)
+                0x00001272                __do_copy_data
+ .init4         0x00001288       0x10 /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/avr5/libgcc.a(_clear_bss.o)
+                0x00001288                __do_clear_bss
+ *(.init4)
+ *(.init5)
+ *(.init5)
+ *(.init6)
+ *(.init6)
+ *(.init7)
+ *(.init7)
+ *(.init8)
+ *(.init8)
+ *(.init9)
+ .init9         0x00001298        0x6 /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/crtm32u4.o
+ *(.init9)
+ *(.text)
+ .text          0x0000129e        0x4 /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/crtm32u4.o
+                0x0000129e                __vector_42
+                0x0000129e                __vector_22
+                0x0000129e                __vector_28
+                0x0000129e                __vector_1
+                0x0000129e                __vector_32
+                0x0000129e                __vector_34
+                0x0000129e                __vector_24
+                0x0000129e                __vector_12
+                0x0000129e                __bad_interrupt
+                0x0000129e                __vector_6
+                0x0000129e                __vector_31
+                0x0000129e                __vector_35
+                0x0000129e                __vector_39
+                0x0000129e                __vector_3
+                0x0000129e                __vector_23
+                0x0000129e                __vector_30
+                0x0000129e                __vector_25
+                0x0000129e                __vector_13
+                0x0000129e                __vector_17
+                0x0000129e                __vector_19
+                0x0000129e                __vector_7
+                0x0000129e                __vector_41
+                0x0000129e                __vector_27
+                0x0000129e                __vector_5
+                0x0000129e                __vector_33
+                0x0000129e                __vector_37
+                0x0000129e                __vector_4
+                0x0000129e                __vector_9
+                0x0000129e                __vector_2
+                0x0000129e                __vector_21
+                0x0000129e                __vector_15
+                0x0000129e                __vector_36
+                0x0000129e                __vector_29
+                0x0000129e                __vector_40
+                0x0000129e                __vector_8
+                0x0000129e                __vector_26
+                0x0000129e                __vector_14
+                0x0000129e                __vector_16
+                0x0000129e                __vector_18
+                0x0000129e                __vector_20
+                0x0000129e                __vector_38
+                0x000012a2                . = ALIGN (0x2)
+ *(.text.*)
+ .text.main_layers_peek
+                0x000012a2       0x24 main.o
+                0x000012a2                main_layers_peek
+ .text.main_layers_peek_sticky
+                0x000012c6       0x24 main.o
+                0x000012c6                main_layers_peek_sticky
+ .text.main_layers_push
+                0x000012ea       0x4a main.o
+                0x000012ea                main_layers_push
+ .text.main_layers_pop_id
+                0x00001334       0x88 main.o
+                0x00001334                main_layers_pop_id
+ .text.main_exec_key
+                0x000013bc       0x84 main.o
+                0x000013bc                main_exec_key
+ .text.startup.main
+                0x00001440      0x1ce main.o
+                0x00001440                main
+ .text.kb_init  0x0000160e       0x18 keyboard/ergodox/controller.o
+                0x0000160e                kb_init
+ .text.kb_update_matrix
+                0x00001626       0x24 keyboard/ergodox/controller.o
+                0x00001626                kb_update_matrix
+ .text.mcp23018_init
+                0x0000164a       0x56 keyboard/ergodox/controller/mcp23018.o
+                0x0000164a                mcp23018_init
+ .text.mcp23018_update_matrix
+                0x000016a0       0xfa keyboard/ergodox/controller/mcp23018.o
+                0x000016a0                mcp23018_update_matrix
+ .text.teensy_init
+                0x0000179a      0x192 keyboard/ergodox/controller/teensy-2-0.o
+                0x0000179a                teensy_init
+ .text.teensy_update_matrix
+                0x0000192c      0x28c keyboard/ergodox/controller/teensy-2-0.o
+                0x0000192c                teensy_update_matrix
+ .text.kbfun_layer_pop_all
+                0x00001bb8       0x14 keyboard/ergodox/layout/colemak-jc-mod.o
+                0x00001bb8                kbfun_layer_pop_all
+ .text._kbfun_press_release
+                0x00001bcc       0xbe lib/key-functions/private.o
+                0x00001bcc                _kbfun_press_release
+ .text._kbfun_mediakey_press_release
+                0x00001c8a       0x36 lib/key-functions/private.o
+                0x00001c8a                _kbfun_mediakey_press_release
+ .text.twi_init
+                0x00001cc0       0x12 lib/twi/teensy-2-0.o
+                0x00001cc0                twi_init
+ .text.twi_start
+                0x00001cd2       0x2e lib/twi/teensy-2-0.o
+                0x00001cd2                twi_start
+ .text.twi_stop
+                0x00001d00       0x10 lib/twi/teensy-2-0.o
+                0x00001d00                twi_stop
+ .text.twi_send
+                0x00001d10       0x3c lib/twi/teensy-2-0.o
+                0x00001d10                twi_send
+ .text.twi_read
+                0x00001d4c       0x2c lib/twi/teensy-2-0.o
+                0x00001d4c                twi_read
+ .text.layer_pop
+                0x00001d78       0x1c lib/key-functions/public/basic.o
+ .text.layer_sticky
+                0x00001d94       0xae lib/key-functions/public/basic.o
+ .text.kbfun_press_release_preserve_sticky
+                0x00001e42       0x2e lib/key-functions/public/basic.o
+                0x00001e42                kbfun_press_release_preserve_sticky
+ .text.kbfun_press_release
+                0x00001e70       0x10 lib/key-functions/public/basic.o
+                0x00001e70                kbfun_press_release
+ .text.kbfun_transparent
+                0x00001e80       0x32 lib/key-functions/public/basic.o
+                0x00001e80                kbfun_transparent
+ .text.kbfun_layer_sticky_1
+                0x00001eb2        0x4 lib/key-functions/public/basic.o
+                0x00001eb2                kbfun_layer_sticky_1
+ .text.kbfun_layer_pop_1
+                0x00001eb6        0x4 lib/key-functions/public/basic.o
+                0x00001eb6                kbfun_layer_pop_1
+ .text.kbfun_layer_sticky_2
+                0x00001eba        0x4 lib/key-functions/public/basic.o
+                0x00001eba                kbfun_layer_sticky_2
+ .text.kbfun_layer_pop_2
+                0x00001ebe        0x4 lib/key-functions/public/basic.o
+                0x00001ebe                kbfun_layer_pop_2
+ .text.kbfun_layer_pop_3
+                0x00001ec2        0x4 lib/key-functions/public/basic.o
+                0x00001ec2                kbfun_layer_pop_3
+ .text.kbfun_layer_pop_4
+                0x00001ec6        0x4 lib/key-functions/public/basic.o
+                0x00001ec6                kbfun_layer_pop_4
+ .text.kbfun_layer_pop_5
+                0x00001eca        0x4 lib/key-functions/public/basic.o
+                0x00001eca                kbfun_layer_pop_5
+ .text.kbfun_layer_pop_6
+                0x00001ece        0x4 lib/key-functions/public/basic.o
+                0x00001ece                kbfun_layer_pop_6
+ .text.kbfun_layer_pop_7
+                0x00001ed2        0x4 lib/key-functions/public/basic.o
+                0x00001ed2                kbfun_layer_pop_7
+ .text.kbfun_layer_pop_8
+                0x00001ed6        0x4 lib/key-functions/public/basic.o
+                0x00001ed6                kbfun_layer_pop_8
+ .text.kbfun_layer_pop_9
+                0x00001eda        0x4 lib/key-functions/public/basic.o
+                0x00001eda                kbfun_layer_pop_9
+ .text.kbfun_layer_pop_10
+                0x00001ede        0x4 lib/key-functions/public/basic.o
+                0x00001ede                kbfun_layer_pop_10
+ .text.kbfun_jump_to_bootloader
+                0x00001ee2       0x64 lib/key-functions/public/device.o
+                0x00001ee2                kbfun_jump_to_bootloader
+ .text.kbfun_shift_press_release
+                0x00001f46        0xa lib/key-functions/public/special.o
+                0x00001f46                kbfun_shift_press_release
+ .text.kbfun_mediakey_press_release
+                0x00001f50       0x2e lib/key-functions/public/special.o
+                0x00001f50                kbfun_mediakey_press_release
+ .text.usb_wait_in_ready
+                0x00001f7e        0xa lib-other/pjrc/usb_keyboard/usb_keyboard.o
+ .text.usb_init
+                0x00001f88       0x2e lib-other/pjrc/usb_keyboard/usb_keyboard.o
+                0x00001f88                usb_init
+ .text.usb_configured
+                0x00001fb6        0x6 lib-other/pjrc/usb_keyboard/usb_keyboard.o
+                0x00001fb6                usb_configured
+ .text.usb_keyboard_send
+                0x00001fbc       0x70 lib-other/pjrc/usb_keyboard/usb_keyboard.o
+                0x00001fbc                usb_keyboard_send
+ .text.__vector_10
+                0x0000202c       0xb8 lib-other/pjrc/usb_keyboard/usb_keyboard.o
+                0x0000202c                __vector_10
+ .text.__vector_11
+                0x000020e4      0x2b6 lib-other/pjrc/usb_keyboard/usb_keyboard.o
+                0x000020e4                __vector_11
+ .text.usb_extra_send
+                0x0000239a       0x5a lib-other/pjrc/usb_keyboard/usb_keyboard.o
+                0x0000239a                usb_extra_send
+ .text.usb_extra_consumer_send
+                0x000023f4       0x3c lib-other/pjrc/usb_keyboard/usb_keyboard.o
+                0x000023f4                usb_extra_consumer_send
+ .text.libgcc   0x00002430        0xc /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/avr5/libgcc.a(_tablejump.o)
+                0x00002430                __tablejump2__
+                0x00002434                __tablejump__
+                0x0000243c                . = ALIGN (0x2)
+ *(.fini9)
+ .fini9         0x0000243c        0x0 /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/avr5/libgcc.a(_exit.o)
+                0x0000243c                exit
+                0x0000243c                _exit
+ *(.fini9)
+ *(.fini8)
+ *(.fini8)
+ *(.fini7)
+ *(.fini7)
+ *(.fini6)
+ *(.fini6)
+ *(.fini5)
+ *(.fini5)
+ *(.fini4)
+ *(.fini4)
+ *(.fini3)
+ *(.fini3)
+ *(.fini2)
+ *(.fini2)
+ *(.fini1)
+ *(.fini1)
+ *(.fini0)
+ .fini0         0x0000243c        0x4 /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/avr5/libgcc.a(_exit.o)
+ *(.fini0)
+                0x00002440                _etext = .
+
+.data           0x00800100       0x28 load address 0x00002440
+                0x00800100                PROVIDE (__data_start, .)
+ *(.data)
+ .data          0x00800100        0x0 /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/crtm32u4.o
+ .data          0x00800100        0x0 main.o
+ .data          0x00800100        0x0 keyboard/ergodox/controller.o
+ .data          0x00800100        0x0 keyboard/ergodox/controller/mcp23018.o
+ .data          0x00800100        0x0 keyboard/ergodox/controller/teensy-2-0.o
+ .data          0x00800100        0x0 keyboard/ergodox/layout/colemak-jc-mod.o
+ .data          0x00800100        0x0 lib/key-functions/private.o
+ .data          0x00800100        0x0 lib/twi/teensy-2-0.o
+ .data          0x00800100        0x0 lib/usb/TODO.o
+ .data          0x00800100        0x0 lib/key-functions/public/basic.o
+ .data          0x00800100        0x0 lib/key-functions/public/device.o
+ .data          0x00800100        0x0 lib/key-functions/public/special.o
+ .data          0x00800100        0x0 lib-other/pjrc/usb_keyboard/usb_keyboard.o
+ .data          0x00800100        0x0 /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/avr5/libgcc.a(_exit.o)
+ .data          0x00800100        0x0 /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/avr5/libgcc.a(_tablejump.o)
+ .data          0x00800100        0x0 /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/avr5/libgcc.a(_copy_data.o)
+ .data          0x00800100        0x0 /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/avr5/libgcc.a(_clear_bss.o)
+ *(.data*)
+ .data.layers_ids_in_use
+                0x00800100       0x14 main.o
+                0x00800100                layers_ids_in_use
+ .data.main_kb_was_pressed
+                0x00800114        0x2 main.o
+                0x00800114                main_kb_was_pressed
+ .data.main_kb_is_pressed
+                0x00800116        0x2 main.o
+                0x00800116                main_kb_is_pressed
+ .data.keyboard_idle_config
+                0x00800118        0x1 lib-other/pjrc/usb_keyboard/usb_keyboard.o
+ .data.keyboard_protocol
+                0x00800119        0x1 lib-other/pjrc/usb_keyboard/usb_keyboard.o
+ *(.rodata)
+ *(.rodata*)
+ .rodata._media_code_lookup_table
+                0x0080011a        0xe lib/key-functions/private.o
+ *(.gnu.linkonce.d*)
+                0x00800128                . = ALIGN (0x2)
+                0x00800128                _edata = .
+                0x00800128                PROVIDE (__data_end, .)
+
+.bss            0x00800128      0x1b1
+                0x00800128                PROVIDE (__bss_start, .)
+ *(.bss)
+ *(.bss*)
+ .bss.layers_head
+                0x00800128        0x1 main.o
+                0x00800128                layers_head
+ .bss.main_kb_was_transparent
+                0x00800129       0x54 main.o
+ .bss._main_kb_was_pressed
+                0x0080017d       0x54 main.o
+ .bss._main_kb_is_pressed
+                0x008001d1       0x54 main.o
+ .bss.layer_ids
+                0x00800225        0xb lib/key-functions/public/basic.o
+ .bss.div4.1696
+                0x00800230        0x1 lib-other/pjrc/usb_keyboard/usb_keyboard.o
+ .bss.keyboard_leds
+                0x00800231        0x1 lib-other/pjrc/usb_keyboard/usb_keyboard.o
+                0x00800231                keyboard_leds
+ .bss.keyboard_idle_count
+                0x00800232        0x1 lib-other/pjrc/usb_keyboard/usb_keyboard.o
+ .bss.keyboard_keys
+                0x00800233        0x6 lib-other/pjrc/usb_keyboard/usb_keyboard.o
+                0x00800233                keyboard_keys
+ .bss.keyboard_modifier_keys
+                0x00800239        0x1 lib-other/pjrc/usb_keyboard/usb_keyboard.o
+                0x00800239                keyboard_modifier_keys
+ .bss.usb_configuration
+                0x0080023a        0x1 lib-other/pjrc/usb_keyboard/usb_keyboard.o
+ *(COMMON)
+ COMMON         0x0080023b       0x9a main.o
+                0x0080023b                main_loop_row
+                0x0080023c                main_arg_any_non_trans_key_pressed
+                0x0080023d                main_layers_pressed
+                0x00800291                main_arg_row
+                0x00800292                main_arg_layer
+                0x00800293                layers
+                0x008002cf                main_arg_was_pressed
+                0x008002d0                main_arg_trans_key_pressed
+                0x008002d1                main_arg_is_pressed
+                0x008002d2                main_loop_col
+                0x008002d3                main_arg_layer_offset
+                0x008002d4                main_arg_col
+ COMMON         0x008002d5        0x4 lib-other/pjrc/usb_keyboard/usb_keyboard.o
+                0x008002d5                consumer_key
+                0x008002d7                last_consumer_key
+                0x008002d9                PROVIDE (__bss_end, .)
+                0x00002440                __data_load_start = LOADADDR (.data)
+                0x00002468                __data_load_end = (__data_load_start + SIZEOF (.data))
+
+.noinit         0x008002d9        0x0
+                0x008002d9                PROVIDE (__noinit_start, .)
+ *(.noinit*)
+                0x008002d9                PROVIDE (__noinit_end, .)
+                0x008002d9                _end = .
+                0x008002d9                PROVIDE (__heap_start, .)
+
+.eeprom         0x00810000        0x0
+ *(.eeprom*)
+                0x00810000                __eeprom_end = .
+
+.fuse
+ *(.fuse)
+ *(.lfuse)
+ *(.hfuse)
+ *(.efuse)
+
+.lock
+ *(.lock*)
+
+.signature
+ *(.signature*)
+
+.user_signatures
+ *(.user_signatures*)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment        0x00000000       0x11
+ *(.comment)
+ .comment       0x00000000       0x11 main.o
+                                 0x12 (size before relaxing)
+ .comment       0x00000000       0x12 keyboard/ergodox/controller.o
+ .comment       0x00000000       0x12 keyboard/ergodox/controller/mcp23018.o
+ .comment       0x00000000       0x12 keyboard/ergodox/controller/teensy-2-0.o
+ .comment       0x00000000       0x12 keyboard/ergodox/layout/colemak-jc-mod.o
+ .comment       0x00000000       0x12 lib/key-functions/private.o
+ .comment       0x00000000       0x12 lib/twi/teensy-2-0.o
+ .comment       0x00000000       0x12 lib/usb/TODO.o
+ .comment       0x00000000       0x12 lib/key-functions/public/basic.o
+ .comment       0x00000000       0x12 lib/key-functions/public/device.o
+ .comment       0x00000000       0x12 lib/key-functions/public/special.o
+ .comment       0x00000000       0x12 lib-other/pjrc/usb_keyboard/usb_keyboard.o
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x00000000       0x80
+ *(.debug_aranges)
+ .debug_aranges
+                0x00000000       0x20 /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/avr5/libgcc.a(_exit.o)
+ .debug_aranges
+                0x00000020       0x20 /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/avr5/libgcc.a(_tablejump.o)
+ .debug_aranges
+                0x00000040       0x20 /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/avr5/libgcc.a(_copy_data.o)
+ .debug_aranges
+                0x00000060       0x20 /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/avr5/libgcc.a(_clear_bss.o)
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x00000000      0x2f8
+ *(.debug_info)
+ .debug_info    0x00000000       0xbe /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/avr5/libgcc.a(_exit.o)
+ .debug_info    0x000000be       0xbe /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/avr5/libgcc.a(_tablejump.o)
+ .debug_info    0x0000017c       0xbe /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/avr5/libgcc.a(_copy_data.o)
+ .debug_info    0x0000023a       0xbe /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/avr5/libgcc.a(_clear_bss.o)
+ *(.gnu.linkonce.wi.*)
+
+.debug_abbrev   0x00000000       0x50
+ *(.debug_abbrev)
+ .debug_abbrev  0x00000000       0x14 /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/avr5/libgcc.a(_exit.o)
+ .debug_abbrev  0x00000014       0x14 /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/avr5/libgcc.a(_tablejump.o)
+ .debug_abbrev  0x00000028       0x14 /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/avr5/libgcc.a(_copy_data.o)
+ .debug_abbrev  0x0000003c       0x14 /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/avr5/libgcc.a(_clear_bss.o)
+
+.debug_line     0x00000000      0x173
+ *(.debug_line)
+ .debug_line    0x00000000       0x58 /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/avr5/libgcc.a(_exit.o)
+ .debug_line    0x00000058       0x5c /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/avr5/libgcc.a(_tablejump.o)
+ .debug_line    0x000000b4       0x61 /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/avr5/libgcc.a(_copy_data.o)
+ .debug_line    0x00000115       0x5e /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/avr5/libgcc.a(_clear_bss.o)
+
+.debug_frame
+ *(.debug_frame)
+
+.debug_str
+ *(.debug_str)
+
+.debug_loc
+ *(.debug_loc)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges
+ *(.debug_ranges)
+
+.debug_macro
+ *(.debug_macro)
+OUTPUT(firmware.elf elf32-avr)
+LOAD linker stubs
+
+Cross Reference Table
+
+Symbol                                            File
+__bad_interrupt                                   /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/crtm32u4.o
+__bss_end                                         /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/avr5/libgcc.a(_clear_bss.o)
+__bss_start                                       /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/avr5/libgcc.a(_clear_bss.o)
+__data_end                                        /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/avr5/libgcc.a(_copy_data.o)
+__data_load_start                                 /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/avr5/libgcc.a(_copy_data.o)
+__data_start                                      /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/avr5/libgcc.a(_copy_data.o)
+__do_clear_bss                                    /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/avr5/libgcc.a(_clear_bss.o)
+                                                  lib-other/pjrc/usb_keyboard/usb_keyboard.o
+                                                  lib/key-functions/public/special.o
+                                                  lib/key-functions/public/basic.o
+                                                  main.o
+__do_copy_data                                    /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/avr5/libgcc.a(_copy_data.o)
+                                                  lib-other/pjrc/usb_keyboard/usb_keyboard.o
+                                                  lib/key-functions/private.o
+                                                  main.o
+__heap_end                                        /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/crtm32u4.o
+__init                                            /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/crtm32u4.o
+__stack                                           /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/crtm32u4.o
+__tablejump2__                                    /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/avr5/libgcc.a(_tablejump.o)
+                                                  lib/key-functions/private.o
+__tablejump__                                     /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/avr5/libgcc.a(_tablejump.o)
+__vector_1                                        /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/crtm32u4.o
+__vector_10                                       lib-other/pjrc/usb_keyboard/usb_keyboard.o
+                                                  /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/crtm32u4.o
+__vector_11                                       lib-other/pjrc/usb_keyboard/usb_keyboard.o
+                                                  /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/crtm32u4.o
+__vector_12                                       /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/crtm32u4.o
+__vector_13                                       /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/crtm32u4.o
+__vector_14                                       /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/crtm32u4.o
+__vector_15                                       /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/crtm32u4.o
+__vector_16                                       /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/crtm32u4.o
+__vector_17                                       /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/crtm32u4.o
+__vector_18                                       /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/crtm32u4.o
+__vector_19                                       /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/crtm32u4.o
+__vector_2                                        /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/crtm32u4.o
+__vector_20                                       /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/crtm32u4.o
+__vector_21                                       /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/crtm32u4.o
+__vector_22                                       /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/crtm32u4.o
+__vector_23                                       /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/crtm32u4.o
+__vector_24                                       /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/crtm32u4.o
+__vector_25                                       /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/crtm32u4.o
+__vector_26                                       /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/crtm32u4.o
+__vector_27                                       /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/crtm32u4.o
+__vector_28                                       /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/crtm32u4.o
+__vector_29                                       /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/crtm32u4.o
+__vector_3                                        /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/crtm32u4.o
+__vector_30                                       /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/crtm32u4.o
+__vector_31                                       /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/crtm32u4.o
+__vector_32                                       /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/crtm32u4.o
+__vector_33                                       /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/crtm32u4.o
+__vector_34                                       /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/crtm32u4.o
+__vector_35                                       /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/crtm32u4.o
+__vector_36                                       /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/crtm32u4.o
+__vector_37                                       /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/crtm32u4.o
+__vector_38                                       /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/crtm32u4.o
+__vector_39                                       /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/crtm32u4.o
+__vector_4                                        /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/crtm32u4.o
+__vector_40                                       /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/crtm32u4.o
+__vector_41                                       /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/crtm32u4.o
+__vector_42                                       /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/crtm32u4.o
+__vector_5                                        /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/crtm32u4.o
+__vector_6                                        /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/crtm32u4.o
+__vector_7                                        /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/crtm32u4.o
+__vector_8                                        /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/crtm32u4.o
+__vector_9                                        /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/crtm32u4.o
+__vector_default                                  /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/crtm32u4.o
+__vectors                                         /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/crtm32u4.o
+_exit                                             /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/avr5/libgcc.a(_exit.o)
+_kb_layout                                        keyboard/ergodox/layout/colemak-jc-mod.o
+                                                  lib/key-functions/public/special.o
+                                                  lib/key-functions/public/basic.o
+_kb_layout_press                                  keyboard/ergodox/layout/colemak-jc-mod.o
+                                                  main.o
+_kb_layout_release                                keyboard/ergodox/layout/colemak-jc-mod.o
+                                                  main.o
+_kbfun_is_pressed                                 lib/key-functions/private.o
+                                                  lib/key-functions/public/special.o
+                                                  lib/key-functions/public/basic.o
+_kbfun_mediakey_press_release                     lib/key-functions/private.o
+                                                  lib/key-functions/public/special.o
+_kbfun_press_release                              lib/key-functions/private.o
+                                                  lib/key-functions/public/special.o
+                                                  lib/key-functions/public/basic.o
+consumer_key                                      lib-other/pjrc/usb_keyboard/usb_keyboard.o
+                                                  lib/key-functions/private.o
+exit                                              /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/avr5/libgcc.a(_exit.o)
+                                                  /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/crtm32u4.o
+kb_init                                           keyboard/ergodox/controller.o
+                                                  main.o
+kb_update_matrix                                  keyboard/ergodox/controller.o
+                                                  main.o
+kbfun_2_keys_capslock_press_release               lib/key-functions/public/special.o
+kbfun_jump_to_bootloader                          lib/key-functions/public/device.o
+                                                  keyboard/ergodox/layout/colemak-jc-mod.o
+kbfun_layer_pop_1                                 lib/key-functions/public/basic.o
+                                                  keyboard/ergodox/layout/colemak-jc-mod.o
+kbfun_layer_pop_10                                lib/key-functions/public/basic.o
+                                                  keyboard/ergodox/layout/colemak-jc-mod.o
+kbfun_layer_pop_2                                 lib/key-functions/public/basic.o
+                                                  keyboard/ergodox/layout/colemak-jc-mod.o
+kbfun_layer_pop_3                                 lib/key-functions/public/basic.o
+                                                  keyboard/ergodox/layout/colemak-jc-mod.o
+kbfun_layer_pop_4                                 lib/key-functions/public/basic.o
+                                                  keyboard/ergodox/layout/colemak-jc-mod.o
+kbfun_layer_pop_5                                 lib/key-functions/public/basic.o
+                                                  keyboard/ergodox/layout/colemak-jc-mod.o
+kbfun_layer_pop_6                                 lib/key-functions/public/basic.o
+                                                  keyboard/ergodox/layout/colemak-jc-mod.o
+kbfun_layer_pop_7                                 lib/key-functions/public/basic.o
+                                                  keyboard/ergodox/layout/colemak-jc-mod.o
+kbfun_layer_pop_8                                 lib/key-functions/public/basic.o
+                                                  keyboard/ergodox/layout/colemak-jc-mod.o
+kbfun_layer_pop_9                                 lib/key-functions/public/basic.o
+                                                  keyboard/ergodox/layout/colemak-jc-mod.o
+kbfun_layer_pop_all                               keyboard/ergodox/layout/colemak-jc-mod.o
+kbfun_layer_pop_numpad                            lib/key-functions/public/special.o
+kbfun_layer_push_1                                lib/key-functions/public/basic.o
+kbfun_layer_push_10                               lib/key-functions/public/basic.o
+kbfun_layer_push_2                                lib/key-functions/public/basic.o
+kbfun_layer_push_3                                lib/key-functions/public/basic.o
+kbfun_layer_push_4                                lib/key-functions/public/basic.o
+kbfun_layer_push_5                                lib/key-functions/public/basic.o
+kbfun_layer_push_6                                lib/key-functions/public/basic.o
+kbfun_layer_push_7                                lib/key-functions/public/basic.o
+kbfun_layer_push_8                                lib/key-functions/public/basic.o
+kbfun_layer_push_9                                lib/key-functions/public/basic.o
+kbfun_layer_push_numpad                           lib/key-functions/public/special.o
+kbfun_layer_sticky_1                              lib/key-functions/public/basic.o
+                                                  keyboard/ergodox/layout/colemak-jc-mod.o
+kbfun_layer_sticky_10                             lib/key-functions/public/basic.o
+kbfun_layer_sticky_2                              lib/key-functions/public/basic.o
+                                                  keyboard/ergodox/layout/colemak-jc-mod.o
+kbfun_layer_sticky_3                              lib/key-functions/public/basic.o
+kbfun_layer_sticky_4                              lib/key-functions/public/basic.o
+kbfun_layer_sticky_5                              lib/key-functions/public/basic.o
+kbfun_layer_sticky_6                              lib/key-functions/public/basic.o
+kbfun_layer_sticky_7                              lib/key-functions/public/basic.o
+kbfun_layer_sticky_8                              lib/key-functions/public/basic.o
+kbfun_layer_sticky_9                              lib/key-functions/public/basic.o
+kbfun_layer_toggle_1                              lib/key-functions/public/basic.o
+kbfun_layer_toggle_10                             lib/key-functions/public/basic.o
+kbfun_layer_toggle_2                              lib/key-functions/public/basic.o
+kbfun_layer_toggle_3                              lib/key-functions/public/basic.o
+kbfun_layer_toggle_4                              lib/key-functions/public/basic.o
+kbfun_layer_toggle_5                              lib/key-functions/public/basic.o
+kbfun_layer_toggle_6                              lib/key-functions/public/basic.o
+kbfun_layer_toggle_7                              lib/key-functions/public/basic.o
+kbfun_layer_toggle_8                              lib/key-functions/public/basic.o
+kbfun_layer_toggle_9                              lib/key-functions/public/basic.o
+kbfun_mediakey_press_release                      lib/key-functions/public/special.o
+                                                  keyboard/ergodox/layout/colemak-jc-mod.o
+kbfun_press_release                               lib/key-functions/public/basic.o
+                                                  lib/key-functions/public/special.o
+                                                  keyboard/ergodox/layout/colemak-jc-mod.o
+kbfun_press_release_preserve_sticky               lib/key-functions/public/basic.o
+kbfun_shift_press_release                         lib/key-functions/public/special.o
+                                                  keyboard/ergodox/layout/colemak-jc-mod.o
+kbfun_toggle                                      lib/key-functions/public/basic.o
+kbfun_transparent                                 lib/key-functions/public/basic.o
+                                                  keyboard/ergodox/layout/colemak-jc-mod.o
+keyboard_keys                                     lib-other/pjrc/usb_keyboard/usb_keyboard.o
+                                                  lib/key-functions/private.o
+keyboard_leds                                     lib-other/pjrc/usb_keyboard/usb_keyboard.o
+                                                  main.o
+keyboard_modifier_keys                            lib-other/pjrc/usb_keyboard/usb_keyboard.o
+                                                  lib/key-functions/private.o
+last_consumer_key                                 lib-other/pjrc/usb_keyboard/usb_keyboard.o
+layers                                            main.o
+layers_head                                       main.o
+layers_ids_in_use                                 main.o
+main                                              main.o
+                                                  /usr/local/CrossPack-AVR-20131216/lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/crtm32u4.o
+main_arg_any_non_trans_key_pressed                lib/key-functions/public/basic.o
+                                                  main.o
+main_arg_col                                      lib/key-functions/public/special.o
+                                                  lib/key-functions/public/basic.o
+                                                  main.o
+main_arg_is_pressed                               lib/key-functions/public/special.o
+                                                  lib/key-functions/public/basic.o
+                                                  main.o
+main_arg_layer                                    lib/key-functions/public/special.o
+                                                  lib/key-functions/public/basic.o
+                                                  main.o
+main_arg_layer_offset                             lib/key-functions/public/basic.o
+                                                  main.o
+main_arg_row                                      lib/key-functions/public/special.o
+                                                  lib/key-functions/public/basic.o
+                                                  main.o
+main_arg_trans_key_pressed                        lib/key-functions/public/basic.o
+                                                  main.o
+main_arg_was_pressed                              main.o
+main_exec_key                                     main.o
+                                                  lib/key-functions/public/basic.o
+main_kb_is_pressed                                main.o
+main_kb_was_pressed                               main.o
+main_layers_peek                                  main.o
+                                                  lib/key-functions/public/basic.o
+main_layers_peek_sticky                           main.o
+                                                  lib/key-functions/public/basic.o
+main_layers_pop_id                                main.o
+                                                  lib/key-functions/public/special.o
+                                                  lib/key-functions/public/basic.o
+main_layers_pressed                               lib/key-functions/public/basic.o
+                                                  main.o
+main_layers_push                                  main.o
+                                                  lib/key-functions/public/special.o
+                                                  lib/key-functions/public/basic.o
+main_loop_col                                     main.o
+main_loop_row                                     main.o
+mcp23018_init                                     keyboard/ergodox/controller/mcp23018.o
+                                                  keyboard/ergodox/controller.o
+mcp23018_update_matrix                            keyboard/ergodox/controller/mcp23018.o
+                                                  keyboard/ergodox/controller.o
+teensy_init                                       keyboard/ergodox/controller/teensy-2-0.o
+                                                  keyboard/ergodox/controller.o
+teensy_update_matrix                              keyboard/ergodox/controller/teensy-2-0.o
+                                                  keyboard/ergodox/controller.o
+twi_init                                          lib/twi/teensy-2-0.o
+                                                  keyboard/ergodox/controller/teensy-2-0.o
+twi_read                                          lib/twi/teensy-2-0.o
+                                                  keyboard/ergodox/controller/mcp23018.o
+twi_send                                          lib/twi/teensy-2-0.o
+                                                  keyboard/ergodox/controller/mcp23018.o
+twi_start                                         lib/twi/teensy-2-0.o
+                                                  keyboard/ergodox/controller/mcp23018.o
+twi_stop                                          lib/twi/teensy-2-0.o
+                                                  keyboard/ergodox/controller/mcp23018.o
+usb_configured                                    lib-other/pjrc/usb_keyboard/usb_keyboard.o
+                                                  main.o
+usb_extra_consumer_send                           lib-other/pjrc/usb_keyboard/usb_keyboard.o
+                                                  main.o
+usb_extra_send                                    lib-other/pjrc/usb_keyboard/usb_keyboard.o
+usb_init                                          lib-other/pjrc/usb_keyboard/usb_keyboard.o
+                                                  main.o
+usb_keyboard_press                                lib-other/pjrc/usb_keyboard/usb_keyboard.o
+usb_keyboard_send                                 lib-other/pjrc/usb_keyboard/usb_keyboard.o
+                                                  lib/key-functions/public/special.o
+                                                  main.o

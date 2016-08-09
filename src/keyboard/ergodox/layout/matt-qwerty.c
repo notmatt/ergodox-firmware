@@ -90,21 +90,21 @@ const uint8_t PROGMEM _kb_layout[KB_LAYERS][KB_ROWS][KB_COLUMNS] = {
     _ctrlL,     _A,         _S,      _D,      _F,    _G,
    _shiftL,     _Z,         _X,      _C,      _V,    _B,     1, // sticky shift?
   /*  fun?                                     symbol layer */
-         1,  _altL,      _guiL,  _ctrlL,       1,
+         1,  _altL,      _guiL,  _ctrlL,  _quote,
                                                  _ctrlL, _altL,
                                               0,      0, _home,
-                                          _guiL,   _del,  _end,
+                                              1,  _guiL,  _end,
 // right hand
 // - what's '3'?
 // - what's '1'?
    _equal, _6,      _7,      _8,      _9,         _0,_backslash,
    _ctrlR, _Y,      _U,      _I,      _O,         _P,       _bs,
            _H,      _J,      _K,      _L, _semicolon,    _enter,
-        1, _N,      _M,  _comma, _period,     _slash,   _shiftR,
-                     1, _arrowL, _arrowD,    _arrowU,   _arrowR,
+    _guiR, _N,      _M,  _comma, _period,     _slash,   _shiftR,
+                _quote, _arrowL, _arrowD,    _arrowU,   _arrowR,
  _altR, _ctrlR,
 _pageU,      0,      0,
-_pageD, _enter, _space ),
+_pageD,      1, _space ),
 
     KB_MATRIX_LAYER(  // layout: layer 1: function and symbol keys
  /* qwert yuiop
@@ -232,19 +232,19 @@ NULL,
  kprrel, kprrel, kprrel, kprrel, kprrel, kprrel, kprrel,
  kprrel, kprrel, kprrel, kprrel, kprrel, kprrel,
  s2kcap, kprrel, kprrel, kprrel, kprrel, kprrel, lpush1,
- kprrel, kprrel, kprrel, kprrel, lpush1,
+ kprrel, kprrel, kprrel, kprrel, kprrel,
                                                  kprrel, kprrel,
                                            NULL,   NULL, kprrel,
-                                         kprrel, kprrel, kprrel,
+                                         lpush1, kprrel, kprrel,
 // right hand
          kprrel, kprrel, kprrel, kprrel, kprrel, kprrel, kprrel,
          kprrel, kprrel, kprrel, kprrel, kprrel, kprrel, kprrel,
                  kprrel, kprrel, kprrel, kprrel, kprrel, kprrel,
-         lpush1, kprrel, kprrel, kprrel, kprrel, kprrel, s2kcap,
-                         lpush1, kprrel, kprrel, kprrel, kprrel,
+         kprrel, kprrel, kprrel, kprrel, kprrel, kprrel, s2kcap,
+                         kprrel, kprrel, kprrel, kprrel, kprrel,
  kprrel, kprrel,
  kprrel,   NULL,   NULL,
- kprrel, kprrel, kprrel ),
+ kprrel, lpush1, kprrel ),
 
 
     KB_MATRIX_LAYER(  // press: layer 1: function and symbol keys
@@ -330,19 +330,19 @@ NULL,
  kprrel, kprrel, kprrel, kprrel, kprrel, kprrel, kprrel,
  kprrel, kprrel, kprrel, kprrel, kprrel, kprrel,
  s2kcap, kprrel, kprrel, kprrel, kprrel, kprrel,  lpop1,
- kprrel, kprrel, kprrel, kprrel,  lpop1,
+ kprrel, kprrel, kprrel, kprrel, kprrel,
                                                  kprrel, kprrel,
                                            NULL,   NULL, kprrel,
-                                         kprrel, kprrel, kprrel,
+                                          lpop1, kprrel, kprrel,
 // right hand
         kprrel, kprrel, kprrel, kprrel, kprrel, kprrel, kprrel,
         kprrel, kprrel, kprrel, kprrel, kprrel, kprrel, kprrel,
                 kprrel, kprrel, kprrel, kprrel, kprrel, kprrel,
-         lpop1, kprrel, kprrel, kprrel, kprrel, kprrel, s2kcap,
-                         lpop1, kprrel, kprrel, kprrel, kprrel,
+        kprrel, kprrel, kprrel, kprrel, kprrel, kprrel, s2kcap,
+                        kprrel, kprrel, kprrel, kprrel, kprrel,
  kprrel, kprrel,
  kprrel,   NULL,   NULL,
- kprrel, kprrel, kprrel ),
+ kprrel,  lpop1, kprrel ),
 
 
     KB_MATRIX_LAYER(  // release: layer 1: function and symbol keys
